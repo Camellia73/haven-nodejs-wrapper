@@ -8,9 +8,9 @@
 //#include "cryptonote_core/cryptonote_basic.h"
 #include "/home/pool/pool/node_modules/cryptoforknote-util/src/cryptonote_core/cryptonote_basic.h"
 //#include "cryptonote_basic/cryptonote_basic_impl.h"
-#include "cryptonote_core/cryptonote_format_utils.h"
-#include "common/base58.h"
-#include "serialization/binary_utils.h"
+#include "/home/pool/pool/node_modules/turtlecoin-multi-hashing/crypto/cryptonote_core/cryptonote_format_utils.h"
+#include "/home/pool/pool/node_modules/cryptoforknote-util/src/common/base58.h"
+#include "/home/pool/pool/node_modules/cryptoforknote-util/src/serialization/binary_utils.h"
 #include <nan.h>
 
 #define THROW_ERROR_EXCEPTION(x) Nan::ThrowError(x)
