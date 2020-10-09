@@ -5,7 +5,8 @@
 #include <stdint.h>
 #include <string>
 #include <algorithm>
-#include "cryptonote_core/cryptonote_basic.h"
+//#include "cryptonote_core/cryptonote_basic.h"
+#include "~/pool/node_modules/cryptoforknote-util/src/cryptonote_core/cryptonote_basic.h"
 //#include "cryptonote_basic/cryptonote_basic_impl.h"
 #include "cryptonote_core/cryptonote_format_utils.h"
 #include "common/base58.h"
