@@ -6,11 +6,11 @@
 #include <string>
 #include <algorithm>
 //#include "cryptonote_core/cryptonote_basic.h"
-#include "/root/poolLUK/node_modules/cryptoforknote-util/src/cryptonote_core/cryptonote_basic.h"
+#include "src/cryptonote_core/cryptonote_basic.h"
 //#include "cryptonote_basic/cryptonote_basic_impl.h"
 #include "/root/poolLUK/node_modules/turtlecoin-multi-hashing/crypto/cryptonote_core/cryptonote_format_utils.h"
-#include "/root/poolLUK/node_modules/cryptoforknote-util/src/common/base58.h"
-#include "/root/poolLUK/node_modules/cryptoforknote-util/src/serialization/binary_utils.h"
+#include "src/common/base58.h"
+#include "src/serialization/binary_utils.h"
 #include <nan.h>
 
 #define THROW_ERROR_EXCEPTION(x) Nan::ThrowError(x)
